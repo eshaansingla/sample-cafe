@@ -1,0 +1,86 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+button{
+    align-self: center;
+    border:0px;
+    border-radius: 20px;
+    background-color: #6F4E37;
+}
+button a{
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration:none;
+    font-size: 1.3rem;;
+}
+ button a:hover {
+    color: white;
+    background-color: #6F4E37;
+    text-decoration: none;
+    border-radius: 20px;
+}
+button:hover {
+    color: white;
+    background-color: #6F4E37;
+    text-decoration: none;
+}
+#navbar::before{
+    content:"";
+    background-color: yellow;
+    position: absolute;
+    height:13.25%;
+    width: 100%;
+    opacity:0.2;
+    z-index: -1;
+}
+#imga{
+    text-align: center;
+}
+#images img{
+    width: 60px;
+    height: 60px;
+}
+#images1 img{
+    width: 60px;
+    height: 60px;
+}
+#images2 img{
+    width: 60px;
+    height: 60px;
+}
+#images3 img{
+    width: 60px;
+    height: 60px;
+}
+#images4 img{
+    width: 60px;
+    height: 60px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+#About{
+    font-family:Arial, sans-serif;
+    font-size: x-large;
+    font: bold;
+    color: white;
+    background-image: url("cof2.png");
+}
+div p{
+    align-items: center;
+}
+
+

@@ -1,0 +1,128 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+.vid video {
+    width: 100%;
+    height: auto;
+}
+#log img{
+    width:100px;
+    height:auto;
+    border-radius: 50px
+}
+ul{
+    display: flex;
+    align-items: center;
+    
+}
+.list ul,li{
+    list-style: none;
+    font-size: 1.3rem;
+    display: block;
+   
+}   
+#navbar::before{
+    content:"";
+    background-color: yellow;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity:0.2;
+    z-index: -1;
+}
+#signin{
+  position: absolute;
+  right:0;
+}
+#Bgimg{
+    display: flex;
+}
+.list a{
+    color: #6F4E37;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration:none;
+}
+.list a:hover {
+   background-color: #6F4E37;
+   color: white;
+}
+
+button a{
+    color: white;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration:none;
+    font-size: 1.3rem;;
+}
+button a:hover {
+    color: white;
+    background-color: #6F4E37;
+    text-decoration: none;
+    border-radius: 20px;
+}
+button:hover {
+    color: white;
+    background-color: #6F4E37;
+    text-decoration: none;
+}
+/* CSS for larger screens */
+/* Adjust font sizes, margins, etc. for larger screens */
+body {
+    font-size: 16px;
+}
+
+#imga {
+    text-align: center;
+}
+
+#imga img {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+
+#About {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* CSS for medium-sized screens like tablets */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    #navbar button {
+        padding: 8px 16px;
+    }
+
+    #imga img {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+/* CSS for small screens like phones */
+@media only screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    #navbar button {
+        padding: 6px 12px;
+    }
+
+    #imga img {
+        width: 30px;
+        height: 30px;
+    }
+
+    #About {
+        padding: 10px;
+    }
+}
